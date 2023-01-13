@@ -1,0 +1,83 @@
+[
+  {
+    "id": "1",
+    "name": "Cure Tools",
+    "image": "https://res.cloudinary.com/dfmdacf6w/image/upload/v1673621012/MyProjects/Cure%20Tools/Cure-Tools_bqcz0m.png",
+    "live": "https://cure-tools.web.app/",
+    "description": "This is a full stack project for a manufacturing company that provide medical tools for the dentists.",
+    "git": {
+      "client": "https://github.com/faridulhaque/cure-tools-client",
+      "server": "https://github.com/faridulhaque/cure-tools-server"
+    },
+    "youtube": "",
+    "features": {
+      "one": "The website was created using HTML, CSS, Tailwind, Daisy UI, React, Firebase, and Node JS. Some components such as react-st-modal, react-hot-toast, etc are used too. Use 'admin@admin.com' to login the site. (email and password both are the same)",
+      "two": "The site is accessible to both admins and users. Admins can't get into the users' accounts and the users can't enter the admins' accounts",
+      "three": "The admin will see features like 'Add an item', 'My items', 'Orders (submitted by the users)', 'My profile', 'Manage orders' etc",
+      "four": "In the manage users page the admin can make another person an admin and also remove him as an admin.",
+      "five": "The user can see the 'My orders', 'My profile', and 'Add a review' pages, etc.",
+      "six": "There are more features like payment, shipment, etc., based on the visitor's role."
+    }
+  },
+
+  {
+    "id": "2",
+    "name": "TM Tool",
+    "image": "https://res.cloudinary.com/dfmdacf6w/image/upload/v1673621053/MyProjects/TM%20Tool/tm-tool_fczkd0.png",
+    "live": "https://game-of-rl.web.app/",
+    "description": "TM Tool is a web app for managing the teams and the teamworks. This is a team project build by the team 'Game Of RL'",
+    "git": {
+      "client": "https://github.com/game-of-rl-II/task-management-client",
+      "server": "https://github.com/game-of-rl-II/task-management-server"
+    },
+    "youtube": "",
+    "features": {
+      "one": "HTML, CSS, JavaScript, React JS, Tailwind CSS, Daisy UI, Firebase Authentication, Redux, React Data-Table, ISO etc are used to build the site.",
+      "two": "One can register as an admin and will create the members' profiles for his teammates. He can create multiple teams, assign tasks to the members, and make opinions about his team members",
+      "three": "The member will sign in with the user ID and password provided by the admin. He will either update the task or forward it to the admin.",
+      "four": "After every interaction, the admin or member will get a notification.",
+      "five": "Use 'phero@phero.com' for admin login (Email and password both are the same)",
+      "six": "Use '000000' for user login. (Email and password both are the same)"
+    }
+  },
+  {
+    "id": "3",
+    "name": "Fresh Fruit",
+    "image": "https://res.cloudinary.com/dfmdacf6w/image/upload/v1673620981/MyProjects/Fresh%20Fruit/fresh-fruit_bl9mei.png",
+    "live": "https://fresh-fruit-new.web.app/",
+    "description": "This is a website for a company who buy fruits from the farmers or import from outside and sell them to the retail fruit sellers.",
+    "git": {
+      "client": "https://github.com/faridulhaque/fresh-fruit-new-client",
+      "server": "https://github.com/faridulhaque/fresh-fruit-new-server"
+    },
+    "youtube": "",
+    "features": {
+      "one": "The website was created using HTML, CSS, Tailwind, React, Firebase, Redux, and Node JS.",
+      "two": "The site is accessible to admins only.",
+      "three": "The admin can add an item, increase the quantities of the items, update delivered items' quantities and delete one or more items.",
+      "four": "Use 'admin@admin.com' to login the site.",
+      "five": "",
+      "six": ""
+    }
+  },
+  {
+    "id": "4",
+    "name": "My Todo",
+    "image": "https://res.cloudinary.com/dfmdacf6w/image/upload/v1673621120/MyProjects/My%20To-Do/My-todo_ylpd8e.png",
+    "live": "https://ph-todo.web.app/",
+    "description": "This is a simple to-do app where a user can make a list for his upcoming tasks. ",
+    "git": {
+      "client": "https://github.com/faridulhaque/todo-app-client",
+      "server": "https://github.com/faridulhaque/todo-server"
+    },
+    "youtube": "https://youtu.be/jU1VMVJM2H4",
+    "features": {
+      "one": "HTML, CSS, React, Tailwind CSS, Daisy Ui, MongoDB, and Node JS are used to build the app.",
+      "two": "There are four routes in the app, they are: Home, To-do, Calender, and completed.",
+      "three": "The Home page will show the tasks for that day.",
+      "four": "The 'to-do' page contains all upcoming tasks and the 'completed' route includes the all completed tasks.",
+      "five": "The 'calendar' page has a form. With that form, the user can add a task for future",
+      "six": ""
+    }
+  }
+]

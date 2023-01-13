@@ -1,0 +1,63 @@
+.mine {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+
+.card-mine,
+.single-project {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.social-link {
+    padding: 10px;
+    font-size: 40px;
+
+}
+
+.fa-linkedin {
+    color: rgb(10, 102, 194);
+}
+
+.fa-facebook-square {
+    color: rgb(13, 136, 239);
+}
+
+.fa-telegram {
+    color: rgb(36, 129, 204);
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    grid-row-gap: 50px;
+
+}
+
+.blogs {
+    height: 100vh;
+}
+.detailDialog{
+    
+    height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .mine {
+        margin-top: 50px;
+        grid-row-gap: 25px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .projects {
+        grid-row-gap: 25px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .card-mine,
+    .single-project {
+        width: 90%;
+        margin: 0 5%;
+    }
+}
